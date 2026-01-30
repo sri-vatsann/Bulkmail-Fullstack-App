@@ -43,7 +43,7 @@ app.post("/sendemail", (req, res) => {
         try {
           for (var i = 0; i < emaillist.length; i++) {
             await transporter.sendMail({
-              from: "srivatsan2910@gmail.com",
+              from: "type your mail",
               to: emaillist[i],
               subject: "Messege from bulkamil app",
               text: msg,
