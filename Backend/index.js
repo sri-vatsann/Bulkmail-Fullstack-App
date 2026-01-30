@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 //Connecting to database for the credentials to make it more secure
 mongoose
-  .connect("mongodb+srv://Srivatsan:4321@cluster0.quo86qp.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("your db")
   .then(() => {
     console.log("Connected to DB");
   })
